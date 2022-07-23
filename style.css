@@ -1,0 +1,117 @@
+
+ .social-media-icon {
+        padding: 2px 3px 1px 3px;
+        background: #222;
+        color: #fff;
+        margin: 5px;
+        border-radius: 4px;
+    }
+    a.social-media-icon:hover{
+        background: #fff!important;
+        color: #222!important;
+    }
+    .facebook{
+        background:  #3c5a98!important;
+    }
+    .twitter{
+        background: #1da1f2!important;
+    }
+    .blogger{
+        background: #ff5722!important;;
+    }
+    .instagram{
+        background: #262626!important;;
+    }
+    #aud {
+    	display:none;
+    	}
+    #hm {
+   color:#0000FF;
+   font-size: 15px;
+   font-weight: normal;
+   font-variant: small-caps;
+   font-family: Andale Mono;}
+   
+   #button {
+font-family: Calibri;
+font-size: 20px;
+font-weight: bold;
+color: white;
+border: white 3px solid;
+border-radius: 40px;
+padding: 16px 30px;
+margin-top: 0px;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+.header {
+  background: #ff000;
+  position: relative;
+  display: block
+}
+
+    	.ignielPelangi {
+    background: linear-gradient(45deg, #5B00E2, #8C00E3, #C100DF, #5800B4, #B200DC, #FF008F, #F6FF00, #EFFF00, #FFE700);
+    background-size: 500% 500%;
+    -webkit-animation: ignielGradient 20s ease infinite;
+    -moz-animation: ignielGradient 7s ease infinite;
+    animation: ignielGradient 10s ease infinite;
+}
+@-webkit-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+    .center {
+        margin: 0;
+        padding-top: 30%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+    	.container marquee {
+   color: #000000; 
+   background: #FFFFFF;
+   font-size: 18px;
+   font-weight: bold;
+   font-variant: bold;
+   border-radius: 20px;
+   border: white 1px solid;
+   padding: 5px;
+   font-family: Calibri;}
+   
+        .container h1 {
+            font-size: 8vw;
+            color:#00FFEC;
+            font-family:Calibri;
+            font-style : bold;
+            border-radius: 40px;
+            padding: 1px;
+            border: white 3px solid;
+            animation: lamerkaratan 0.5s linear infinite; 
+        }
+        .conta h1 {
+            font-size: 5vw;
+            font-style : bold;
+            font-family:Calibri;
+        }
+        
+        @keyframes lamerkaratan{ 2%{color:#fff;} 3%{transform:translate(2px,-10px) skewX(3240deg);} 5%{transform:translate(0px,0px) skewX(0deg);} 2% , 54%{transform:translateX(0px) skew(0deg);} 55%{transform:translate(-2px,6px) skew(-5530deg);} 56%{transform:translate(0px,0px) skew(0deg);} 57%{transform:translate(4px,-10px) skew(-70deg);} 58%{transform:translate(0px,0px) skew(0deg);} 62%{transform:translate(0px,20px) skew(0deg);} 63%{transform:translate(4px,-2px) skew(0deg);} 90%{transform:translate(1px,3px); skew(-230deg);} 95%{transform:translate(-7px,2px); skew(-120deg);} 100%{transform:translate(0px,0px) skew(0deg);} 
